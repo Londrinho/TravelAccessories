@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">TravelAccessories</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="intro_text">Travel Accessories</string>
+    <string name="description_luggage">A sophisticated and professional two piece luggage set.</string>
+    <string name="descrp_travel_adap">The ideal travel adapters for all destinations.</string>
+    <string name="descrp_travel_shav">Travel shaver to keep you looking well groomed.</string>
+    <string name="descrp_pillow">Custom made pillow to help you sleep well.</string>
+    <string name="travel_adap">Travel adapters covering all your destinations.</string>
+
+    <string name="luggage_order_message">You ordered a two piece luggage set.</string>
+    <string name="adapter_order_message">You ordered two travel adapters.</string>
+    <string name="shaver_order_message">You ordered a travel shaver.</string>
+    <string name="pillow_order_message">You ordered a travel pillow.</string>
+</resources>

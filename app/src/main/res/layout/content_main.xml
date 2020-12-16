@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/adaoters"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:contentDescription="@string/descrp_travel_adap"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textintro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="84dp"
+        android:text="@string/intro_text"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/luggage"
+        android:layout_width="88dp"
+        android:layout_height="112dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/description_luggage"
+        android:onClick="showLuggageOrder"
+        android:src="@drawable/luggage_photo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textintro" />
+
+    <ImageView
+        android:id="@+id/trav_adapt"
+        android:layout_width="94dp"
+        android:layout_height="114dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="15dp"
+        android:contentDescription="@string/travel_adap"
+        android:onClick="showTravelAdapterOrder"
+        android:src="@drawable/travel_adapter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/luggage" />
+
+    <ImageView
+        android:id="@+id/travel_sha"
+        android:layout_width="71dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:contentDescription="@string/descrp_travel_shav"
+        android:onClick="showShaverOrder"
+        android:src="@drawable/travel_shavers"
+        app:layout_constraintEnd_toStartOf="@+id/descrp_shavers"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/trav_adapt" />
+
+    <ImageView
+        android:id="@+id/trav_pillows"
+        android:layout_width="94dp"
+        android:layout_height="98dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="15dp"
+        android:contentDescription="@string/descrp_pillow"
+        android:onClick="showPillowOrder"
+        android:src="@drawable/pillow"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/travel_sha" />
+
+    <TextView
+        android:id="@+id/luggage_descrp"
+        android:layout_width="255dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        android:text="@string/description_luggage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.25"
+        app:layout_constraintStart_toEndOf="@+id/luggage"
+        app:layout_constraintTop_toTopOf="@+id/luggage" />
+
+    <TextView
+        android:id="@+id/descrp_adapt"
+        android:layout_width="261dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="24dp"
+        android:text="@string/descrp_travel_adap"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/trav_adapt"
+        app:layout_constraintTop_toTopOf="@+id/trav_adapt" />
+
+    <TextView
+        android:id="@+id/descrp_shavers"
+        android:layout_width="244dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        android:text="@string/descrp_travel_shav"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/travel_sha"
+        app:layout_constraintTop_toBottomOf="@+id/trav_adapt" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="230dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="24dp"
+        android:text="@string/descrp_pillow"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/trav_pillows"
+        app:layout_constraintTop_toTopOf="@+id/trav_pillows" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
